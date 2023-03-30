@@ -9,4 +9,3 @@ let promise = new Promise(function(resolve,reject){
 promise.then((val)=>{
 	element.value = val;
 })
-.catch("error");
